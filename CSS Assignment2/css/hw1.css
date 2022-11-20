@@ -1,0 +1,127 @@
+body {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+header {
+    background-color:#b1a9a9;
+    background-image: url( http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+    height: 30vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #f3eded;
+    text-align: center;
+}
+
+/* nav {
+    margin: 0 auto;
+    border: 2 px solid red;
+} */
+
+
+nav > a {
+    color:#110d0d;
+    /* background-color: #c4c0c0; */
+    background-color: rgba(192, 195, 197, 0.5);
+    display: inline-block;
+    width: 150px;
+    padding: .5rem;
+    /* margin-right: 1rem; */
+    margin-left: 6rem;
+    text-decoration: none;
+    
+}
+
+
+.active {
+    background-color: #fff;
+}
+
+
+
+
+img {
+    /* display: none; */
+    border: 2px solid black;
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+    width: 80%;
+    height: 150px;
+}
+
+.left {
+    display: inline-block;
+    width: 15%;
+    height: 100vh;
+    float: left;
+    background-color: #a19f07;
+    /* display: flex;
+    flex-direction: column;
+    justify-items: center; */
+}
+
+.right {
+    /* background-color:#747171 ; */
+    display: inline-block;
+    width: 80%;
+    float: right;
+}
+
+h2 {
+    /* text-transform: uppercase; */
+    color: #060607;
+    font-family:'Times New Roman', Times, serif;
+}
+
+table {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 75%;
+    line-height: 2rem;
+    margin: 0 auto;
+}
+
+th{
+    /* text-align: center; */
+    background-image: linear-gradient(to right,#bb9005, #da6e16 );
+    color: rgb(252, 247, 247);
+    /* box-shadow: rgba(36, 3, 73, 0.8); */
+    border-bottom: 2px solid grey;
+    border-radius: 5%;
+ border-radius: 10px 10px 0 0;
+    padding: .5rem;
+  }
+
+  th:nth-child(1) {
+    padding-right: 20rem;
+    /* color: aqua; */
+   
+  }
+
+
+  tr {
+    background-color: rgba(221, 218, 218, .6);
+    color: rgba(83, 80, 80, 0.8);
+  }
+
+  tr:hover {
+    color: rgba(238, 46, 20, 0.8);
+  }
+
+  td:last-child {
+    padding: 1rem 0 1rem 1.8rem ;
+   
+  }
+
+  td:first-child {
+    padding: 1rem 0 1rem 1rem ;
+   
+  }
+
+  td:nth-child(2)  {
+    padding: 1rem 0 1rem 1.8rem;
+   
+  }
+
